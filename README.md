@@ -1,6 +1,7 @@
 # php-docker
 
 docker build -t hello-php
+
 docker images
 docker run -p 3000:80 hello-php
 docker run -p 3000:80 -d hello-php
